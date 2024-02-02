@@ -21,6 +21,6 @@ def save_text_to_file(text, filename, file_format, folder_path):
 
     print(f"File saved successfully at {file_path}")
 
-# # 使用示例
+# # example
 # text_data = ""
 # save_text_to_file(text_data, "example_filename", "txt", "/path/to/folder")
