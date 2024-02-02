@@ -38,7 +38,7 @@ def generate_messages_list(roles_info):
 
 # # Example usage with multiple images for a single role
 # roles_info = [
-#     {'role': 'user', 'text': "User's text message", 'image_inputs': ["/Users/zhilinwang/PycharmProjects/Anton_TalnF/data/CV/text.jpg", "https://example.com/user_image2.jpg"]},
+#     {'role': 'user', 'text': "User's text message", 'image_inputs': ["text.jpg", "https://example.com/user_image2.jpg"]},
 #     {'role': 'admin', 'image_inputs': ["/path/to/admin_image.png", "/path/to/another_admin_image.png"]},
 #     {'role': 'moderator', 'text': "Moderator's announcement", 'image_inputs': ["/path/to/moderator_image.png"]}
 # ]
