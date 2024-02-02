@@ -36,5 +36,3 @@ def convert_and_merge_pdf_to_jpg(pdf_path, output_folder):
     # Return the merged image path
     return output_image_path
 
-#print(convert_and_merge_pdf_to_jpg('/Users/zhilinwang/Downloads/Social_Bias_Language_Model.pdf', '/Users/zhilinwang/PycharmProjects/Anton_TalnF/data/CV'))
-
