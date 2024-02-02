@@ -1,4 +1,4 @@
-# Anton: The Advanced AI System to Assist in Hiring
+# Anton: AI-powered Resume Generation Tool
 
 ## Set Up
 Please ensure that Anton is running with Python3.9+.
