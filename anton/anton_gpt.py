@@ -5,7 +5,7 @@ class anton_ai:
     # Define a class named 'anton_ai' to interface with the OpenAI API.
 
     def __init__(self):
-        self.key='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'
+        self.key='Your openai key'
         # Initialize the class with an API key for authenticating requests to OpenAI.
 
     # Image process
