@@ -1,11 +1,11 @@
 # Anton: AI-powered Resume Generation Tool
 
 ## Set Up
-Please ensure that Anton is running with Python3.9+.
+Please ensure that Anton is running with Python3.9+. 
 
 In terminal:
 ```shell
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 Note: There could be some requirements not listed in requirements.txt. If you want to
 compile the LaTeX file, please ensure that you have installed LaTeX on your machine, please see <https://www.latex-project.org/get/>. Besides, if you
