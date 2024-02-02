@@ -7,7 +7,7 @@ In terminal:
 ```shell
 pip3 install -r requirements.txt
 ```
-There could be some requirements not listed in requirements.txt. If you want to
+Note: There could be some requirements not listed in requirements.txt. If you want to
 compile the LaTeX file, please ensure that you have installed LaTeX on your machine, please see <https://www.latex-project.org/get/>. Besides, if you
 want to compile the .tex file into .doc file, please install pandoc, see <https://pandoc.org/installing.html>.
 
