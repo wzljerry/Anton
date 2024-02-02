@@ -7,8 +7,9 @@ In terminal:
 ```shell
 pip install -r requirements.txt
 ```
-Note: There could be some requirements not listed in requirements.txt. If you want to
-compile the LaTeX file, please ensure that you have installed LaTeX on your machine, please see <https://www.latex-project.org/get/>. Besides, if you
+Note: There could be some requirements not listed in requirements.txt. I use GPT-4 in this project, so please prepare an openai key first.
+
+If you want to compile the LaTeX file, please ensure that you have installed LaTeX on your machine, please see <https://www.latex-project.org/get/>. Besides, if you
 want to compile the .tex file into .doc file, please install pandoc, see <https://pandoc.org/installing.html>.
 
 ## Example
