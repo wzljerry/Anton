@@ -40,5 +40,5 @@ def compile_latex_and_convert_to_word(file_name, output_folder):
         print(f"Failed to process {file_name}.")
 
 # Compile test.tex and convert it to a Word document
-compile_latex_and_convert_to_word("./data/compiled_file/test.tex", "./data/compiled_file")
+#compile_latex_and_convert_to_word("./data/compiled_file/test.tex", "./data/compiled_file")
 
