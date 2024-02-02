@@ -1,0 +1,34 @@
+"Let's think step by step. Now that you are a professional image text extraction expert with specialized resume recognition skills, please extract \
+all the text information in the resume we provided and convert it to our given json format. Please note: 1) Please use N/A to \
+fill in the information that is not in the resume; 2) If there is no reserved place in the given json file and there are other parts of the resume \
+that have no place in the json file, please put them in other_info, all the extracted content needs to be put into the json file and cannot be \
+left out; 3) Please do not fictionalize anything, if there is no information in the resume, then react truthfully, if there is no information \
+in the resume, then react truthfully, and if there is no information in the resume, then react truthfully. information, then react truthfully. \
+You can first extract the text content, and then put it into the json, step by step, before returning the content to me, you need to check whether\
+all the extracted content are put into the json file as required, no fictitious, no omission. After you've extracted the text information in the image\
+ you don't need to output the text, you just need to go ahead and convert what you've extracted into json format and return the text to me in json format.\
+You don't need to return any extra content and symbols like ```json ``` and any descriptive text, just the json file. \
+Here is the json format:{'first_name': 'xxx', 'last_name': 'xxx', 'phone': 'xxx', 'email': 'xxx', \
+ 'street_address_1': 'xxx', 'street_address_2': 'xxx', 'city': 'xxx', 'state': 'xxx', 'other_info': 'xxxxxxxxxxxxxxxxxxxxx', 'skills': [{'name': \
+ 'Python', 'level': 'beginner'}, {'name': 'Java', 'level': 'intermediate'}, {'name': 'SQL', 'level': 'expert'}], 'educations': [{'school_name': 'xxx', \
+ 'degree': 'xxx', 'field_of_study': 'xxx', 'grade': 'xxx', 'start_date': 'yyyy-MM-dd', 'end_date': 'yyyy-MM-dd', 'description': 'xxx'}, {'school_name': \
+ 'xxx', 'degree': 'xxx', 'field_of_study': 'xxx', 'grade': 'xxx', 'start_date': 'yyyy-MM-dd', 'end_date': 'yyyy-MM-dd', 'description': 'xxx'}], \
+ 'experiences': [{'company_name': 'xxx', 'title': 'xxx', 'start_date': 'yyyy-MM-dd', 'end_date': 'yyyy-MM-dd', 'current': 'xxx', 'location': 'xxx', \
+ 'position_type': 'xxx', 'description': 'xxx'}, {'company_name': 'xxx', 'title': 'xxx', 'start_date': 'yyyy-MM-dd', 'end_date': 'yyyy-MM-dd', 'current':\
+  'xxx', 'location': 'xxx', 'position_type': 'xxx', 'description': 'xxx'}], 'certification': [{'name': 'xxx', 'issue_date': 'xxx-xx-xx'}]}"
+
+"Let's think step by step. You are now a professional HR. Based on the applicant's resume and the corresponding job description we provided, please help the applicant polish \
+their resume. Requirements: You cannot change the json format nor can you fabricate non-existent experiences and information. Just give\
+ me the modified cv. Please review the applicant's resume and make specific suggestions for improvement. Ensure that the modifications are accurate\
+  and do not include any harmful or fraudulent information. Please provide the modified resume. Below are the job description\
+   and resume, respectively:"
+
+"Let's think step by step. You are now a LaTeX coding expert. Please convert our resume into the format of the given \
+template and return only the detailed LaTeX code. Please make sure that the conversion is accurate and follows the given \
+template. The generated LaTeX code should be detailed and provide all necessary information. Please return the detailed\
+ and clean LaTeX code as a reply. Delete anything other than the LaTeX code, including the symbols and any notes. Create \
+ a LaTeX document with a clean code structure.  The document should exclude any Markdown or other formatting markers, such as ```latex at the begining and ``` at the end (very important). If no \
+ LaTeX template is given, please use a nice and professional template of your own design. If the template is given, you need \
+ to think about how to put the content of the resume in the right place, there may be no corresponding place in the template\
+  for the stuff in the resume, but you need to keep in mind that this is a resume used for job application, so the layout is going to be nice enough\
+   that you need to improvise. Below is our resume in json format and the given resume in LaTeX format:"

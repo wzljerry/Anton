@@ -1,0 +1,4 @@
+"Let's think step by step. You are a professional HR  who can extract the key information from a job description file and put it in the json format provided \
+by us. Note that if there is no relevant information in the job description, then N/A is shown in the json file. Here is the job description:"+str(jd_text)+"here\
+is the json format: {'companyName':'xxxx inc', 'jobTitle':'xxxx', 'salary':'15','role':'xxxx','skills':'xxxx', 'experience':'xxxx', 'qualifications':'xxxx', \
+'workType':'full-time/part-time/contract', 'companySize':'10000', 'jobPostingDate':'yyyy-MM-dd', 'preference':'xxxx', 'contact':'xxxx', 'jobPortal':'xxxx', 'benefits':'xxxx', 'responsibilities':'xxx', 'companyProfile':'xxx'}"

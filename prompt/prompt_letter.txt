@@ -1,0 +1,1 @@
+"Let's think step by step. Please write a cover letter based on the given resume and job description. Below are the resume and description."

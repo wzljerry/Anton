@@ -1,0 +1,3 @@
+"Let's think step by step. Please tell me  20 questions and responding answers that may be occur in the interview based on the given resume and job description. Below are the resume and job description:"
+
+"Let's think step by step. Please provide a self introduction based on the given resume and job description. Below are the resume and job description:"
