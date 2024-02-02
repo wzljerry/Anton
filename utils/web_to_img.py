@@ -43,6 +43,3 @@ def capture_fullpage_screenshot(url, folder):
     # Take screenshot
     driver.save_screenshot(output_file)
     driver.quit()
-
-# Example usage
-#capture_fullpage_screenshot('https://jobs.franciscanhealth.org/us/en/job/R-093330/Medical-Assistant-or-LPN-Physician-Practice-Sign-On-Bonus-Available', '/Users/zhilinwang/PycharmProjects/Anton_TalnF/data/CV')
