@@ -43,9 +43,3 @@ def denoise_and_enhance(input_path, output_path):
     cv2.imwrite(output_path, denoised_image)
     print(f"Denoised and enhanced image saved to {output_path}")
 
-
-# # 使用函数处理图像
-# input_image_path = '/Users/zhilinwang/PycharmProjects/Anton_TalnF/data/CV/test_2.jpg'  # 替换为您的输入图像路径
-# output_image_path = '/Users/zhilinwang/PycharmProjects/Anton_TalnF/data/CV/enhanced_img.jpg'  # 替换为您想要保存的输出图像路径
-# denoise_and_enhance(input_image_path, output_image_path)
-
