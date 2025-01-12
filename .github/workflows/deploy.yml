@@ -1,0 +1,29 @@
+name: Deploy to AutoDL with Password
+
+on:
+  push:
+    branches:
+      - main  # 推送到 main 分支时触发
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04  # 显式指定操作系统版本
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install sshpass
+      run: sudo apt-get update && sudo apt-get install -y sshpass
+
+    - name: Deploy to AutoDL server using password and custom port
+      env:
+        AUTODL_PASSWORD: ${{ secrets.AUTODL_PASSWORD }}
+      run: |
+        sshpass -p "$AUTODL_PASSWORD" ssh -p 19257 -o StrictHostKeyChecking=no root@connect.cqa1.seetacloud.com << 'EOF'
+          # 在服务器上运行的命令
+          cd /path/to/your/project || exit 1
+          git pull origin main
+          docker-compose down
+          docker-compose up -d --build
+        EOF
