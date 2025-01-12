@@ -1,4 +1,4 @@
-name: Deploy to AutoDL
+name: Deploy to AutoDL with Password
 
 on:
   push:
@@ -13,14 +13,14 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Set up SSH
-      uses: webfactory/ssh-agent@v0.7.0
-      with:
-        ssh-private-key: ${{ secrets.AUTODL_SSH_KEY }}
+    - name: Install sshpass
+      run: sudo apt-get update && sudo apt-get install -y sshpass
 
-    - name: Deploy to AutoDL server
+    - name: Deploy to AutoDL server using password
+      env:
+        AUTODL_PASSWORD: ${{ secrets.AUTODL_PASSWORD }}
       run: |
-        ssh -o StrictHostKeyChecking=no ${{ secrets.AUTODL_USER }}@${{ secrets.AUTODL_HOST }} << 'EOF'
+        sshpass -p "$AUTODL_PASSWORD" ssh -o StrictHostKeyChecking=no ${{ secrets.AUTODL_USER }}@${{ secrets.AUTODL_HOST }} << 'EOF'
           # 在服务器上运行的命令
           cd /path/to/your/project || exit 1
           git pull origin main
